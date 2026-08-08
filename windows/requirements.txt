@@ -1,0 +1,13 @@
+# Windows requirements for CAN-ETH Gateway tools
+#
+# Install with:   pip install -r requirements.txt
+#
+# No special drivers needed — all communication is UDP/HTTP over Ethernet.
+
+# ── Validation GUI (validation/) ─────────────────────────────────────────────
+requests>=2.31.0
+PyQt5>=5.15.0
+pyqtgraph>=0.13.0
+
+# ── Build standalone .exe (optional — only needed for build_exe.bat) ─────────
+pyinstaller>=6.0.0
