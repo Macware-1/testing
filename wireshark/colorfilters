@@ -1,0 +1,7 @@
+@CLOG - Bus-Off@clog.status.can1_state == 3 or clog.status.can2_state == 3@[ffffff][dc3545]
+@CLOG - Malformed@clog.expert@[ffffff][990000]
+@CLOG - Status@clog.type == 0@[e2e8f0][0f4c81]
+@CLOG - J1939@clog.type == 2@[000000][d4edda]
+@CLOG - Event@clog.type == 3@[000000][e8d5f5]
+@CLOG - FD+BRS@clog.flags.brs == 1@[000000][fff3cd]
+@CLOG - CAN FD@clog.flags.fd == 1@[000000][cce5ff]
